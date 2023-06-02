@@ -9,10 +9,17 @@
 </head>
 <body>
     <header>
-        <video class="video-container" autoplay muted loop>
-            <source src="video.mp4" type="video/mp4">
+        <video class="video-container"  loop  autoplay muted name="media">
+            <source src="video.mp4" type="video/mp4;codecs="avc1.42E01E, mp4a.40.2"">
         </video>
+       
         <h1>Video Player</h1>
+        <button class="switch-btn">
+            <span>play</span>
+            <span>pause</span>
+            <span class="switch"></span>
+
+        </button>
     </header>
     <script src="app.js"></script>
 </body>
